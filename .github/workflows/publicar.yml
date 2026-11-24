@@ -1,0 +1,26 @@
+name: Publicar descarga
+
+# Al subir una versión nueva a la rama «descargas», crea la publicación con el APK.
+on:
+  push:
+    branches: [descargas]
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Leer versión
+        id: v
+        run: echo "version=$(tr -d '[:space:]' < VERSION)" >> "$GITHUB_OUTPUT"
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.v.outputs.version }}
+          name: Presupuesta ${{ steps.v.outputs.version }} (Android)
+          body: Versión de pruebas para instalar fuera de Google Play.
+          target_commitish: ${{ github.sha }}
+          make_latest: true
+          files: presupuesta.apk
