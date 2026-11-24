@@ -1,0 +1,6 @@
+{
+  "version": "0.3.10",
+  "build": 10,
+  "apk": "https://github.com/escarraga72-debug/presupuesta-web/releases/latest/download/presupuesta.apk",
+  "notas": "Aviso de actualizaciones dentro de la app, eliminación de cuenta y enlace a privacidad y condiciones."
+}
