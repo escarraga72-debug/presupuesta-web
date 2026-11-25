@@ -1,6 +1,6 @@
 {
-  "version": "0.3.12",
-  "build": 12,
+  "version": "0.3.14",
+  "build": 14,
   "apk": "https://github.com/escarraga72-debug/presupuesta-web/releases/latest/download/presupuesta.apk",
-  "notas": "Activa la IA: lectura de facturas con foto y partidas automáticas."
+  "notas": "Plan Pro disponible y preparada para los pagos de la tienda."
 }
