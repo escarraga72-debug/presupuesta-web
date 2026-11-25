@@ -1,6 +1,6 @@
 {
-  "version": "0.3.11",
-  "build": 11,
+  "version": "0.3.12",
+  "build": 12,
   "apk": "https://github.com/escarraga72-debug/presupuesta-web/releases/latest/download/presupuesta.apk",
-  "notas": "La IA muestra cuántos usos llevas este mes (500 incluidos con la suscripción)."
+  "notas": "Activa la IA: lectura de facturas con foto y partidas automáticas."
 }
