@@ -1,6 +1,6 @@
 {
-  "version": "0.3.14",
-  "build": 14,
+  "version": "0.3.16",
+  "build": 16,
   "apk": "https://github.com/escarraga72-debug/presupuesta-web/releases/latest/download/presupuesta.apk",
-  "notas": "Plan Pro disponible y preparada para los pagos de la tienda."
+  "notas": "Nuevo: Invita y gana. Comparte tu código: por cada 5 empresas que se suscriban, 1 mes gratis."
 }
